@@ -1,0 +1,14 @@
+name: AutoTotem
+version: 1.0
+main: club.bagel.autototem.AutoTotem
+api-version: "1.16"
+description: Toggleable offhand totem refill.
+commands:
+  autototem:
+    description: Toggle auto totem on or off.
+    usage: /autototem
+    aliases: [at]
+permissions:
+  autototem.use:
+    description: Allows using /autototem.
+    default: op
